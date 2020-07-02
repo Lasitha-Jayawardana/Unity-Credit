@@ -1,0 +1,109 @@
+[Root]
+Most Recent Package=Lasith
+
+
+[Package|Lasith|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\My project\Computer\My work\Unity Credit\Package
+
+[Package|Lasith|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Lasith|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Lasith|Files Found]
+
+[Package|Lasith|Files Released]
+
+[Package|Lasith|Missing Dependency Information]
+
+[Package|Lasith|Out-of-Date Dependency Information]
+C:\Windows\System32\Mscomctl.ocx=
+C:\Windows\System32\COMDLG32.OCX=
+C:\Windows\System32\scrrun.dll=
+
+[Package|Lasith|Files Added]
+
+[Package|Lasith|Files Removed]
+
+[Package|Lasith|Files In Project]
+D:\My project\Computer\My work\Unity Credit\Unity Credit.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\scrrun.dll=Yes
+C:\Windows\System32\msvcrt.dll=Yes
+C:\Windows\System32\Codejock.Controls.v12.0.0.ocx=Yes
+C:\Windows\System32\Codejock.SkinFramework.v13.0.0.ocx=Yes
+C:\Windows\System32\FormCutter.ocx=Yes
+D:\My project\Computer\My work\Ozone5\RICHTX32.OCX=Yes
+C:\Windows\System32\COMDLG32.OCX=Yes
+C:\Windows\System32\Mscomctl.ocx=Yes
+C:\Windows\System32\MSCOMCT2.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Lasith|Configure Registry Files]
+Applicable=No
+
+[Package|Lasith|Configure Remote Servers]
+Applicable=No
+
+[Package|Lasith|Install Locations]
+D:\My project\Computer\My work\Unity Credit\Unity Credit.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\scrrun.dll=$(WinSysPath)
+C:\Windows\System32\msvcrt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\Codejock.Controls.v12.0.0.ocx=$(WinSysPath)
+C:\Windows\System32\Codejock.SkinFramework.v13.0.0.ocx=$(WinSysPath)
+C:\Windows\System32\FormCutter.ocx=$(WinSysPath)
+D:\My project\Computer\My work\Ozone5\RICHTX32.OCX=$(WinSysPath)
+C:\Windows\System32\COMDLG32.OCX=$(WinSysPath)
+C:\Windows\System32\Mscomctl.ocx=$(WinSysPath)
+C:\Windows\System32\MSCOMCT2.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Lasith|Configure Shared Files]
+Applicable=Yes
+D:\My project\Computer\My work\Unity Credit\Unity Credit.exe=No
+
+[Package|Lasith|Distribution]
+Type=single
+Size=
+Title=Unity Credit
+
+[Package|Lasith|IconGroups]
+Group0=Unity Credit
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Lasith|Unity Credit]
+Icon1="Unity Credit.exe"
+Title1=Unity Credit
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Lasith|Package]
+PackageFolder=D:\My project\Computer\My work\Unity Credit\Package
+ProjectFolder=D:\My project\Computer\My work\Unity Credit
+ServerSideCab=
+File1=D:\My project\Computer\My work\Unity Credit\Package\setup.exe
+File2=D:\My project\Computer\My work\Unity Credit\Package\Setup.Lst
+File3=D:\My project\Computer\My work\Unity Credit\Package\Unity Credit.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
